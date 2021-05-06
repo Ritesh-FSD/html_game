@@ -28,7 +28,7 @@ var player = new function(){
 		var p1 = c.height - noise(t + this.x) * 0.25;
 		var p2 = c.height - noise(t+5+ this.x) * 0.25;
 
-		var grounded() 0 ;
+		var grounded = 0 ;
 
 		if(p1 - 15 > this.y){
 
